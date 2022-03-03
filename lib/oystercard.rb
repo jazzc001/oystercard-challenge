@@ -17,6 +17,7 @@ class OysterCard
   end
 
   def touch_in(entry_station)
+    
     insufficient_balance_error
     @journeylog.start(entry_station)
   end
